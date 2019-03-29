@@ -32,6 +32,7 @@
                 android:orientation="vertical">
 
                 <ImageView
+                    android:id="@+id/shareimg"
                     android:layout_width="64dp"
                     android:layout_height="64dp"
                     android:background="@drawable/cerclebackgroundpurple"
@@ -56,8 +57,8 @@
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Check your bank activities"
-                    android:textColor="@android:color/darker_gray" />
+                    android:text="Click here to share some Files "
+                    android:textColor="@color/cardview_dark_background" />
 
 
             </LinearLayout>
@@ -100,12 +101,13 @@
                     android:background="@color/lightgray" />
 
                 <TextView
+                    android:id="@+id/openImages"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:gravity="center"
                     android:padding="5dp"
-                    android:text="Check your bank activities"
-                    android:textColor="@android:color/darker_gray" />
+                    android:text="Click here to share some Images"
+                    android:textColor="@color/cardview_dark_background" />
 
 
             </LinearLayout>
@@ -118,7 +120,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="323dp"
+        android:layout_height="223dp"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal">
@@ -224,10 +226,11 @@
 
 
     <ImageView
-        android:layout_marginTop="50dp"
-        android:layout_marginLeft="400dp"
+        android:id="@+id/btnshare"
         android:layout_width="74dp"
         android:layout_height="74dp"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="5dp"
         android:background="@drawable/cerclebackgroundpurple"
         android:clickable="true"
         android:padding="10dp"
