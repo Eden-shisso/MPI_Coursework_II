@@ -16,20 +16,20 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:padding="5dp"
-            android:text="Choose file"
+            android:text="Choose Video"
             android:textColor="#ff6600"
             android:textSize="25sp"
             android:textStyle="bold" />
 
-        <ImageView
-            android:id="@+id/share_imageview"
+        <VideoView
+            android:id="@+id/share_videoview"
             android:layout_width="200dp"
             android:layout_height="200dp"
             android:layout_gravity="center"
             android:layout_marginTop="10dp"
-            android:contentDescription="imageview"
+            android:contentDescription="videoview"
             android:padding="5dp"
-            android:src="@drawable/rih" />
+            android:src="@drawable/qriri" />
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -38,22 +38,22 @@
             android:padding="5dp" >
 
             <Button
-                android:id="@+id/select_image"
+                android:id="@+id/select_video"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:padding="5dp"
-                android:text="Select Image" />
+                android:text="Select Video" />
 
             <Button
-                android:id="@+id/share_image"
+                android:id="@+id/share_video"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="3dp"
                 android:layout_weight="1"
                 android:padding="5dp"
-                android:text="Share Image"
+                android:text="Share Video"
                 android:visibility="gone" />
         </LinearLayout>
 
